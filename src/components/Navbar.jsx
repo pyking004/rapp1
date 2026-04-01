@@ -10,8 +10,8 @@ const Navbar = () => {
         <li><NavLink to="/about" style={({isActive})=>{return {backgroundColor: isActive ? 'aqua' : ''}}}>About</NavLink></li>
         <li><NavLink to="/contact" style={({isActive})=>{return {backgroundColor: isActive ? 'aqua' : ''}}}>Contact</NavLink></li>
         <li><NavLink to="/courses" style={({isActive})=>{return {backgroundColor: isActive ? 'aqua' : ''}}}>Courses</NavLink></li>
-        <li><NavLink to="/login" style={({isActive})=>{return {backgroundColor: isActive ? 'aqua' : ''}}}>Login</NavLink></li>
-        <li><NavLink to="/signup" style={({isActive})=>{return {backgroundColor: isActive ? 'aqua' : ''}}}>SignUp</NavLink></li>
+        <li className='last'><NavLink to="/signup" style={({isActive})=>{return {backgroundColor: isActive ? 'aqua' : ''}}}>SignUp</NavLink></li>
+        <li className='last'><NavLink to="/login" style={({isActive})=>{return {backgroundColor: isActive ? 'aqua' : ''}}}>Login</NavLink></li>
       </ul>
       {/* <ul>
         <li><Link to="/">Home</Link></li>

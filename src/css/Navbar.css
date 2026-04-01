@@ -13,3 +13,6 @@ ul > li{
 ul > li > a{
     text-decoration: none;
 }
+.last{
+    float:right
+}
